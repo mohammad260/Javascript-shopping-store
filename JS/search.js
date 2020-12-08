@@ -7,6 +7,7 @@ class Search{
       const setProduct = products.filter((character) =>{
         return (character.title.toLowerCase().includes(s) || character.gender === s)
       })
+
     if(setProduct === null){
       console.log("empty");
     }
@@ -46,6 +47,11 @@ class Search{
     })
     womensShoes.addEventListener("click", () => {
       this.filterItem("womens", "shoes");
+    })
+
+    // filter furniture
+    furniture.addEventListener("click", () => {
+      this.filterItem("all", "furniture");
     })
   }
 
