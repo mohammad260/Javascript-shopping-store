@@ -7,7 +7,7 @@ A simple shopping store application, displays products on the page. Items can be
 
 ### Installing
 
-* Clone project using - git clone <project url>
+* Clone project using - git clone https://github.com/mohammad260/Javascript-shopping-store.git
 * Visual Studio Code  or any other editor can be used to view project code
 
 ### Built with
